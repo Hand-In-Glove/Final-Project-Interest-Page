@@ -19,7 +19,7 @@ function IntroCopy() {
       <h3>Welcome energisers...</h3>
       <p>
         We give you <strong>short and sweet</strong> activities to bring teams
-        together speciifically designed to beat the mid-afternoon slump.
+        together specifically designed to beat the mid-afternoon slump.
       </p>
     </div>
   );
