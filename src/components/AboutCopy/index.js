@@ -20,8 +20,8 @@ function AboutCopy() {
       <div className={css.Hosting}>
         <img src={toolbox} alt="toolkit" />
         <p>
-          Tools to help you organise right from your mobile device including,
-          team generators, score tracking, leaderboards and more.
+          Tools to help you organise energisers from your mobile device
+          including, team generators, score tracking, leaderboards and more.
         </p>
       </div>
       <div className={css.Games}>
