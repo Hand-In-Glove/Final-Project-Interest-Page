@@ -12,7 +12,8 @@ function Form() {
         body: JSON.stringify({ email: value }),
       });
       const data = await res.json();
-      console.log(data);
+
+      setResponseMsg(data.email);
       setValue("");
     } catch (err) {
       console.log(err.message);
@@ -23,6 +24,9 @@ function Form() {
   function handleChange(e) {
     setValue(e.target.value);
   }
+
+  const [responseMsg, setResponseMsg] = useState(null);
+
   return (
     <form
       className={css.form}
@@ -42,6 +46,12 @@ function Form() {
         ></input>
       </label>
       <input className={css.regBtn} type="submit" />
+      {responseMsg && (
+        <p>
+          Thanks email: "{responseMsg}"" was successfully registered! We'll keep
+          you updated.
+        </p>
+      )}
     </form>
   );
 }
