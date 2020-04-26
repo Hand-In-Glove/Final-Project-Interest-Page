@@ -1,0 +1,18 @@
+.about {
+  padding: 1.5rem;
+  background-color: #ecf1fd;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Library > img {
+  height: 20vh;
+}
+.Hosting > img {
+  height: 20vh;
+}
+.Games > img {
+  height: 20vh;
+}

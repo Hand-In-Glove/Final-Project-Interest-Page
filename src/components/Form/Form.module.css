@@ -1,0 +1,27 @@
+.input {
+  border-radius: 20px;
+  width: 80%;
+}
+
+.label {
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(48, 47, 47);
+  border-radius: 20px;
+  width: 90%;
+  background-color: rgba(38, 85, 105, 0.4);
+}
+
+.regBtn {
+  border-radius: 20px;
+  border: 2px solid rgb(48, 47, 47);
+  background-color: rgb(72, 240, 72);
+  padding: 1rem;
+}

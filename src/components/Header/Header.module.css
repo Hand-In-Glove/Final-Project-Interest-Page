@@ -1,0 +1,11 @@
+.Header {
+  font-family: var(--title-font);
+  /* background: linear-gradient(#3bb3e4, whitesmoke); */
+  margin-top: 0;
+  font-size: 1.5rem;
+  height: 100vh;
+}
+
+.Header > img {
+  height: 50vh;
+}
